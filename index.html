@@ -1,22 +1,110 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/estilos.css">
-    
-    <title>Portfólio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jackson Almeida</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro&display=swap"
+		rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-            <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <h1 class="site-title">Jackson Almeida</h1>
-        <h2 class="site-subtitle">jr. web developer</h2>
-    </header>
+	<header class="header-site">
+		<nav class="menu">
+			<ul class="container">
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="projetos.html">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+		<div class="titulo">
+			<h1 class="site-title">Jackson Almeida</h1>
+			<h2 class="site-subtitle">jr. web developer</h2>
+
+		</div>
+	</header>
+	<section class="sobre" id="sobre">
+		<h2>Sobre</h2>
+		<div class="container">
+			<figure>
+				<img src="img/jackson_sobre.jpeg" alt="Jackson Almeida">
+			</figure>
+		
+			<p>
+					Olá, me chamo Jackson e atualmente estou construindo minha carreira na área de Desenvolvedor Web,
+				estou em busca de uma vaga de programador back-end, porém estou me familiarizando tanto com o
+				front como também com o back-end, estou estudando incansavelmente para obter o melhor e maior
+				conhecimento possível na área.
+			</p>
+			<p>
+				Minha historia na programação não tem muito tempo porém na área de tecnologia já estou familiarizado a 5
+				anos, trabalho atualmente com Manutenção de computadores, Montagem de máquinas e resolução de problemas,
+				configuração de equipamentos de rede como roteadores, switches, etc. Estou buscando migrar de área
+				devido a recente familiaridade que tive ao me deparar com Python, eu gostei muito de estudar e senti uma
+				alegria imensa em ver os códigos que construí funcionando... Apesar de ter “quebrado a cabeça” muitas
+				vezes.
+			</p>
+			<p>
+					Uma outra razão para que eu busque a área de programação é a remuneração bem mais elevada comparado a
+				minha atual, o dinheiro não é tudo, porém é importante. A finalidade de todo esforço é um resultado e o
+				meu resultado desejável é a autossatisfação, e posso alcançar isso fazendo clientes felizes, minha
+				conduta é sempre fazer bem feito, independente do contexto, se todos fizessem as coisas de forma que
+				fossem reconhecidos pelo seu bom trabalho acredito que o mundo seria bem melhor.
+
+			</p>
+		</div>
+	</section>
+	<section class="portfolio" id="portfolio">
+		<h2>Projetos</h2>
+
+		<div class="grid">
+			<figure>
+				<img class="img-portfolio" src="./img/calculadora_tkinter.png" alt="Alura">
+				<figcaption>Calculadora em Python</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/calculadora_de_unidade_medidas.png" alt=">Caelum">
+				<figcaption>Calculadora de Unidade de Medidas em Pyhton</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/react_alura.png" alt="Biblioteca React">
+				<figcaption>Biblioteca React</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/site_neteane_login.png" alt="Site Neteane Silva">
+				<figcaption>Site Netiane Silva</figcaption>
+			</figure>
+			<figure>
+				<img class="img-portfolio" src="./img/oficinamao.png" alt="Programa de Cadastro e Controle em Python">
+				<figcaption>Programa de Cadastro e Controle em Python</figcaption>
+			</figure>
+		</div>
+
+	</section>
+	<section class="contato" id="contato">
+		<h2>Contato</h2>
+
+		<div class="grid icons">
+			<a target="_blank" href="https://github.com/KenpachiZoro">
+				<i class="fab fa-github"></i>
+			</a>
+			<a target="_blank" href="https://twitter.com/paulo_caelum">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a target="_blank" href="https://linkedin.com/in/paulosilveira">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a target="_blank" href="https://instagram.com/jack_jr2022">
+				<i class="fab fa-instagram"></i>
+			</a>
+
+		</div>
+	</section>
 </body>
+
 </html>
